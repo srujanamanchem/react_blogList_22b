@@ -1,0 +1,13 @@
+.blogs-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+}
+@media (min-width: 992px) {
+  .blogs-list {
+    width: 90%;
+  }
+}

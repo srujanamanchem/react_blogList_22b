@@ -1,0 +1,39 @@
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  border-bottom: 1px solid #9aa5b1;
+}
+.title-date-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 12px;
+}
+.date {
+  color: #9aa5b1;
+  font-size: 12px;
+}
+.description {
+  color: #9aa5b1;
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+  .blog-item {
+    width: 100%;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .date {
+    font-size: 14px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}

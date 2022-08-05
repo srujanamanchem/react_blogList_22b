@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'roboto';
+}
+.profile-image {
+  width: 100px;
+}
+.person-name {
+  font-size: 20px;
+}
+.person-job {
+  font-size: 14px;
+  color: #616e7c;
+  margin-top: 5px;
+}
+@media (min-width: 992px) {
+  .profile-image {
+    width: 190px;
+  }
+  .person-name {
+    font-size: 34px;
+  }
+  .person-job {
+    font-size: 18px;
+  }
+}
